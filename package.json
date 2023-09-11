@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+ "scripts": {
+    "start":"node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "apollo-server-core": "^3.12.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0"
+  }
+}
